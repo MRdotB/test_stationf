@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "export NODE_ENV=production && node server.js",
+    "dev": "export NODE_ENV=development && node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
